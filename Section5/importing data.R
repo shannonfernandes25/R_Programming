@@ -10,8 +10,8 @@ stats
 rm(stats)
 getwd()                  #to check current working directory
 setwd("C:\\Users\\shann\\OneDrive\\Desktop\\R\\udemy\\section 5")     
-#add double slash for windows
-#for mac this / is used
+#add double slash for windows.
+#for mac this / is used.
 getwd()
 stats <- read.csv("P2-Demographic-Data.csv")
 stats
@@ -201,6 +201,7 @@ qplot(data=merged, x=Internet.users, y=Birth.rate,
 qplot(data=merged, x=Internet.users, y=Birth.rate, 
       color=Regions, size=I(2), shape=I(19),
       alpha=0.6, main="Birth Rate VS Internet Users")
+
 
 
 
